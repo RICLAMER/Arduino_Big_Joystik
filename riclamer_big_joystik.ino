@@ -18,7 +18,7 @@ I used Arduino R3 with Atmega 16U2.
 #undef DEBUG
 
 #define NUM_BUTTONS	40             // you don't need to change this value
-#define NUM_AXES	8	       // 6 axes to UNO, and 8 to MEGA. If you are using UNO, don't need to change this value.
+#define NUM_AXES	8	       // 6 axes to UNO, and 8 to MEGA. If you are using MEGA, don't need to change this value.
 
 typedef struct joyReport_t {
     int16_t axis[NUM_AXES];
